@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Unit tests ">
+
+    <test name="Smoke">
+        <packages>
+            <package name="src.test.java.hometask21"/>
+        </packages>
+    </test>
+</suite>
