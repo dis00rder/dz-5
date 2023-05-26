@@ -30,4 +30,14 @@ public abstract class Person {
     public boolean isPartner() {
         return partner;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                ", partner=" + partner +
+                '}';
+    }
 }
